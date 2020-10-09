@@ -113,7 +113,7 @@ require_once('config.php');
                             }
                             ?></div>
                             <input class="btn btn-primary btn-sm btn-block" type="submit" id="register" name="register" value="Register" <?php echo $_GRAYED['value']; ?>>
-                            <input class="<?php echo $_VISIBILITY['class']; ?>" type="submit" id="login" name="login" value="Login" ?>
+                            <input class="btn btn-primary btn-sm btn-block" type="submit" id="login" name="login" value="Login" onClick="Javascript:window.location.href = 'login.php';">
                         </div>
                     </div>
                 </div>
